@@ -135,8 +135,8 @@ bool = isInt8Array( null );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-int16array`][@stdlib/assert/is-int16array]</span><span class="delimiter">: </span><span class="description">test if a value is an Int16Array.</span>
--   <span class="package-name">[`@stdlib/assert/is-int32array`][@stdlib/assert/is-int32array]</span><span class="delimiter">: </span><span class="description">test if a value is an Int32Array.</span>
+-   <span class="package-name">[`@stdlib/assert-is-int16array`][@stdlib/assert/is-int16array]</span><span class="delimiter">: </span><span class="description">test if a value is an Int16Array.</span>
+-   <span class="package-name">[`@stdlib/assert-is-int32array`][@stdlib/assert/is-int32array]</span><span class="delimiter">: </span><span class="description">test if a value is an Int32Array.</span>
 
 </section>
 
