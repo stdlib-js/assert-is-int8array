@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-int8array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-int8array/tags). For example,
+
+```javascript
 import isInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-int8array@v0.1.1-esm/index.mjs';
 ```
 
@@ -84,7 +89,7 @@ import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/in
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import isInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-int8array@v0.1.1-esm/index.mjs';
+import isInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-int8array@esm/index.mjs';
 
 var bool = isInt8Array( new Int8Array( 10 ) );
 // returns true
